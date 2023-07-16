@@ -69,31 +69,6 @@ if __name__ == '__main__':
 
 
 
-'''
-class MisogynyData(Dataset): 
-  def __init__(self, sentences, embeddings, valence, dominance, arousal, label):
-    self.sentences = sentences
-    self.embeddings = embeddings.get_embeddings(sentences)
-    self.valence = valence 
-    self.dominance = dominance 
-    self.arousal = arousal 
-    self.label = label 
-
-  def __len__(self):
-    return len(self.sentences)
-    
-  def __getitem__(self, index):
-    sentence = self.sentences[index]
-    embedding = self.embeddings[index] 
-    valence = self.valence[index] 
-    dominance = self.dominance[index] 
-    arousal = self.arousal[index]
-    
-    # Process the embedding and sentence data and return it as a dictionary or tuple
-    # For example, you could return {'embedding': embedding, 'sentence': sentence}
-    
-    return {'embedding': embedding, 'sentence': sentence}
-''' 
 
 
 
